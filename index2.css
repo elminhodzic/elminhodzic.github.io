@@ -1,8 +1,100 @@
 body {
 
-      background-image:url("slika4.jpg");
-      font-family: Sans-Serif;
+      background-image:url("pozadina.jpg");
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      line-height: 1.6em;
+      margin: 0;
 }
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: green;
+}
+
+.container{
+	width: 80%;
+	margin: auto;
+}
+
+.readMore{
+	color: white;
+}
+
+.dugme{
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
+
+.box-1{
+	background-color: #333;
+	color: #fff;
+	border-right: 5px red solid;
+	border-left: 5px red solid;
+	border-top: 5px red solid;
+	border-bottom: 5px red solid;
+
+	padding: 20px;
+
+	margin-top: 20px 0;
+}
+
+.box-2{
+	border: 3px dotted #ccc
+	padding:20px;
+	margin: 20px 0;
+}
+
+.kategorije{
+	border: 1px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.kategorije h2{
+	text-align: center;
+}
+
+.kategorije ul{
+	padding:0;
+	list-style: none;
+
+}
+
+.kategorije li{
+	padding-bottom: 8px;
+	border-bottom: dotted 1px #333;
+
+}
+
+.forma{
+	padding:20px;
+}
+
+.forma .form-grupa{
+	padding-bottom: 15px;
+}
+
+.forma label{
+	display: block;
+}
+
+.forma input[type="text"], .forma textarea{
+	padding: 3px;
+	width: 25%;
+}
+
 
 #projekti,#omeni,kontakt {
 
